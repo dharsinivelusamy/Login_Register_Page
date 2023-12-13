@@ -1,0 +1,99 @@
+body {
+    background-image: url("loginPage.jpeg");
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  
+  .text-center {
+    color: green;
+    font-family: "Lucida Console", "Apple Chancery", oblique;
+    font-size: 23px;
+    margin: -50px 0 80px 0;
+    display: block;
+    text-align: center;
+  }
+  
+  .form-box {
+    width: 350px;
+    height: 550px;
+  }
+  
+  .box {
+    position: absolute;
+    left: 67%;
+    top: 47%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(147, 149, 151, 0.671);
+    box-shadow: 0 5px 30px black;
+    border-radius: 3px;
+    padding: 70px 100px;
+  }
+  
+  .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    padding: 70px 100px;
+    box-shadow: -3px -3px 9px #aaa9a9a2;
+  }
+  
+  .input-container {
+    position: relative;
+    margin-bottom: 25px;
+  }
+  
+  .input-container label {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 16px;
+    color: #033E3E;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .input-container input {
+    border: 0;
+    border-bottom: 1px solid #555;
+    background: transparent;
+    width: 100%;
+    padding: 8px 0 5px 0;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .input-container input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #1AA260;
+  }
+  
+  .btn {
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(10, 136, 43);
+    margin-left: 70px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .input-container input:focus ~ label,
+  .input-container input:valid ~ label {
+    top: -12px;
+    font-size: 12px;
+  }
+  
+  /* Additional styles for the registration form */
+  .form-box.register {
+    height: 600px;
+  }
+  
+  .form-box.register .input-container input {
+    margin-bottom: 15px;
+  }
